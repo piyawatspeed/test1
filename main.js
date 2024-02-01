@@ -965,7 +965,7 @@ function init() {
     function load() {
         const viewer = new Viewer(null, [0, -1, -.17], [-5, -1, -1], [1, 1, 0]);
         viewer.init();
-        viewer.loadFile('undefined.splat')
+        viewer.loadFile('https://piyawatspeed.github.io/test1/undefined.splat')
         .then(() => {
             viewer.start();
         });
