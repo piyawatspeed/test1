@@ -965,7 +965,7 @@ function init() {
     function load() {
         const viewer = new Viewer(null, [0, -1, -.17], [-5, -1, -1], [1, 1, 0]);
         viewer.init();
-        viewer.loadFile('https://cdn.glitch.me/e98270e2-296c-4c39-8797-ab32b47d379c/undefined.splat?v=1706766131006')
+        viewer.loadFile('https://cdn.glitch.global/e98270e2-296c-4c39-8797-ab32b47d379c/gs_test.splat')
         .then(() => {
             viewer.start();
         });
